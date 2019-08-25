@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <a href="../BMI/index.html">
+                <button class="bmi">BMI</button>
+            </a>
+            <a href="../WHR/index.html">
+                <button class="whr">WHR</button>
+            </a>
+            <a href="../WHtR/index.html">
+                <button class="whtr"> WHtR</button>
+
+            </a>
+        </nav>
+
+        <div class="main">
+
+            <div class="inputs">
+                <input type="text" class="weight" placeholder="Waga w kg">
+                <input type="text" class="height" placeholder="Wzrost w cm">
+                <button id="start">Oblicz BMI</button>
+            </div>
+
+
+            <div class="results">
+                <div>
+                    <p>Twoje BMI wynosi: <span class="bmi"></span></p>
+                    <p>co oznacza <span class='result'>wygłodzenie</span></p>
+                </div>
+                <div>
+                    <p>Twoje BMI wynosi: <span class="bmi"></span></p>
+                    <p>co oznacza <span class='result'>wychudzenie</span></p>
+                </div>
+                <div>
+                    <p>Twoje BMI wynosi: <span class="bmi"></span></p>
+                    <p>co oznacza <span class='result'>niedowagę</span></p>
+                </div>
+                <div>
+                    <p>Twoje BMI wynosi: <span class="bmi"></span></p>
+                    <p>jest to <span class='result'>wartość prawidłowa</span></p>
+                </div>
+                <div>
+                    <p>Twoje BMI wynosi: <span class="bmi"></span></p>
+                    <p>co oznacza <span class='result'>nadwagę</span></p>
+                </div>
+                <div>
+                    <p>Twoje BMI wynosi: <span class="bmi"></span></p>
+                    <p>co oznacza <span class='result'>otyłość stopnia I</span></p>
+                </div>
+                <div>
+                    <p>Twoje BMI wynosi: <span class="bmi"></span></p>
+                    <p>co oznacza <span class='result'>otyłość stopnia II</span></p>
+                </div>
+                <div>
+                    <p>Twoje BMI wynosi: <span class="bmi"></span></p>
+                    <p>co oznacza <span class='result'>otyłość stopnia III</span></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="icon">
+        <a href="../wskaźniki strona startowa/index.html"> <i class="fas fa-backward"></i></a>
+    </div>
+
+    <script src="Animations.js"> </script>
+    <script src="Calculate.js"></script>
+    <script src="Informations.js"></script>
+    <script src="Results.js"></script>
+    <script src="Start.js"> </script>
+
+</body>
+
+</html>
