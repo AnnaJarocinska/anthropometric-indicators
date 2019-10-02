@@ -11,9 +11,12 @@ Practice programming
 Application gets input values and calculate indicators.
 
 ## Technologies
-Java Script<br>
-CSS
+- Java Script<br>
+- CSS
 
-Contact
+## Status
+Project finished
+
+## Contact
 
 Created by Anna Jarocińska anna.jarocinska5@gmail.com
