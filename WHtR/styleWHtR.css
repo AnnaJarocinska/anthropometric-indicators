@@ -22,7 +22,7 @@ div.wrapper {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: url(./images/green\ apple\ 88KB.jpg);
+    background-image: url(../images/green\ apple\ 88KB.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,7 +90,7 @@ div.inputs {
     align-content: stretch;
     height: 75vw;
     width: 75vw;
-    border: 3px solid var(--colorBMI);
+    border: 3px solid var(--colorWHtR);
     border-radius: 50%;
     background-color: var(--colorButtonHover);
 }
@@ -104,11 +104,11 @@ input:nth-child(1) {
     margin-bottom: 5px;
 }
 
-button#start {
+button#startwhtr {
     border: 1px solid white;
     border-radius: 15px;
     font-size: 20px;
-    background-color: var(--colorBMI);
+    background-color: var(--colorWHtR);
     color: white;
     box-shadow: 0 0 10px white;
     line-height: 1.5em;
@@ -117,7 +117,7 @@ button#start {
     cursor: pointer;
 }
 
-button#start:focus {
+button#startwhtr:focus {
     outline: none;
     background-color: rgba(135, 135, 135, 0.7);
     color: white;
@@ -125,7 +125,7 @@ button#start:focus {
 
 input:focus {
     outline: none;
-    border: 3px solid var(--colorBMI);
+    border: 3px solid var(--colorWHtR);
     box-shadow: 0 0 10px white;
     background-color: rgba(255, 255, 255, 0.6);
 }
@@ -142,7 +142,7 @@ div.results>div {
     flex-wrap: wrap;
     width: 75vw;
     height: 75vw;
-    border: 3px solid var(--colorBMI);
+    border: 3px solid var(--colorWHtR);
     border-radius: 50%;
     background-color: rgba(250, 250, 250, 0.4);
 }
@@ -181,7 +181,7 @@ div.icon a {
         font-size: 25px;
     }
 
-    button#start {
+    button#startwhtr {
         font-size: 32px;
         margin-top: 38px;
     }
@@ -201,7 +201,7 @@ div.icon a {
         font-size: 27px;
     }
 
-    button#start {
+    button#startwhtr {
         font-size: 35px;
         margin-top: 50px;
     }
@@ -243,7 +243,7 @@ div.icon a {
         width: 65vh;
     }
 
-    button#start {
+    button#startwhtr {
         font-size: 20px;
         margin-top: 28px;
     }
@@ -271,7 +271,7 @@ div.icon a {
             width: 55vh;
         }
 
-         button#start {
+         button#startwhtr {
             font-size: 28px;
             margin-top: 50px;
             padding-right: 30px;
@@ -329,7 +329,7 @@ div.icon a {
             font-size: 30px;
         }
 
-        button#start {
+        button#startwhtr {
             font-size: 45px;
         }
 
@@ -337,6 +337,13 @@ div.icon a {
             font-size: 35px;
         }
     }
+
+
+
+
+
+
+
 
 
 
