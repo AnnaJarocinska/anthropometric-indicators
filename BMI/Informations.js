@@ -19,8 +19,5 @@ class Informations {
         if (this.weight <= 0 || this.height <= 0) {
             alert("Podana wartość jest za niska")
         }
-        if (this.weight >= this.height) {
-            alert("Podano nieprawidłowe wartości")
-        }
     }
 }
